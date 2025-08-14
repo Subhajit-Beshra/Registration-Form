@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    height: 100vh; /* full height of the viewport */
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center;     /* center vertically */
+    background: linear-gradient(135deg, #00c6ff, #0072ff); /* optional background */
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.title-bar1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #0072ff;
+}
+.info-box{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.info-box input {
+    padding: 5px; /* bigger height */
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+.radio-group{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333333;
+}
+.radio-group p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #333333;
+}
+.button button{
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.button button:hover{
+   opacity: 0.9;
+}
+.checkbox-group{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
