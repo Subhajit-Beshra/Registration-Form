@@ -1,22 +1,31 @@
-Registration Form
-This is a clean and responsive registration form built using HTML and CSS.
-It includes fields for:
+# Registration Form
 
-Name, Email, Country, Phone
+A simple and responsive registration form built with **HTML** and **CSS**.
 
-Password & Confirm Password
+## Features
+- User-friendly input fields for:
+  - Name  
+  - Email  
+  - Country  
+  - Phone  
+  - Password & Confirm Password  
+- Gender selection (radio buttons)  
+- Terms & Conditions agreement (checkbox)  
+- "Sign In" link for existing users (currently a placeholder)  
 
-Gender selection (radio buttons)
+## Design Highlights
+- Gradient background  
+- Centered, rounded container box with subtle shadow  
+- Spacing between input fields for better readability  
+- Responsive layout for different screen sizes  
 
-Terms and conditions agreement (checkbox)
+## Future Improvements
+- Link the **Sign In** button to a login page  
+- Add form validation using JavaScript  
+- Enhance accessibility for screen readers
 
-There’s also a Sign In link (currently a placeholder) for existing users, which can later be linked to a login page.
+---
+**Note:** The **Sign In** link is currently inactive and will be updated in future versions.
 
-The design features:
 
-Gradient background
-
-Rounded container with shadow
-
-Spacing and alignment for better readability
 
