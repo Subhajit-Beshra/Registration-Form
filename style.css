@@ -64,9 +64,9 @@ body{
         padding: 15px;
     }
     .container input {
-        width: 100%;
+        width: 70%;
     }
     .container button {
-        width: 100%;
+        width: 75%;
     }
 }
