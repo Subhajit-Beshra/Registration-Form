@@ -57,3 +57,16 @@ body{
 .container button:active{
     background-color: #3A6BAF;
 }
+@media (max-width: 400px) and (max-height: 900px) {
+    .container {
+        width: 80%;
+        height: auto;
+        padding: 15px;
+    }
+    .container input {
+        width: 100%;
+    }
+    .container button {
+        width: 100%;
+    }
+}
